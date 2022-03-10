@@ -1,12 +1,20 @@
 ## Ms RED: A novel multi-scale residual encoding and decoding network for skin lesion segmentation  
 
-![1646876774177](C:\Users\DDW\AppData\Roaming\Typora\typora-user-images\1646876774177.png)
+![](D:\github\images\network.jpg)
 
 [https://www.sciencedirect.com/science/article/pii/S1361841521003388](https://www.sciencedirect.com/science/article/pii/S1361841521003388)
 
 ### Data preparation
 
- Decompress the ISIC 2018 dataset, which is saved in "data/ISIC2018_npy_all_224_320.zip".  The decompression format is as follows:
+We cropped the ISIC 2018 dataset to 224*320 and saved it in npy format,  which can be downloaded from Baidu web disk. 
+
+```
+link: https://pan.baidu.com/s/1bIVUdzYG_7tuwalbI4Y8Ww
+
+password: c36c
+```
+
+Place the downloaded npy files in the "data" directory and unzip them. The decompression format is as follows:
 
 ```
 /data/ISIC2018_npy_all_224_320/image/
