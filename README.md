@@ -1,6 +1,6 @@
 ## Ms RED: A novel multi-scale residual encoding and decoding network for skin lesion segmentation  
 
-![](D:\github\images\network.jpg)
+![](https://github.com/duweidai/Ms-RED/blob/main/images/network.jpg)
 
 [https://www.sciencedirect.com/science/article/pii/S1361841521003388](https://www.sciencedirect.com/science/article/pii/S1361841521003388)
 
