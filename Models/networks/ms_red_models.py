@@ -1009,17 +1009,6 @@ class Ms_red_v1(nn.Module):
         final = F.sigmoid(out)
         return final
         
-    def _initialize_weights(self):
-        for m in self.modules():
-            if isinstance(m, nn.Conv2d):
-                nn.init.kaiming_uniform_(m.weight.data)
-                if m.bias is not None:
-                    m.bias.data.zero_()
-            elif isinstance(m, nn.BatchNorm2d):
-                init.normal_(m.weight.data, 1.0, 0.02)
-                init.constant_(m.bias.data, 0.0)
-
-
 
 class Ms_red_v2(nn.Module):
     def __init__(self, classes, channels):
